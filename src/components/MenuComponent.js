@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import { Media } from "reactstrap";
 
 class Menu extends Component{
-    constructor(props) {
-        super(props);
-        this.state = {
+        state = {
             dishes: [
                 {
                   id: 0,
@@ -40,7 +38,6 @@ class Menu extends Component{
                   description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms'                        }
                ],
         };
-    }
 
 
     render(){
